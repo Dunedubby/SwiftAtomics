@@ -10,12 +10,9 @@ Pod::Spec.new do |spec|
   spec.authors                   = { 'Apple' => 'apple@apple.com', 'Marcio Martins' => 'marcioapm@gmail.com', 'Emilio Sison' => 'dunedubby@gmail.com' }
   spec.source                    = { :git => 'https://github.com/Dunedubby/SwiftAtomics.git', :tag => spec.version.to_s }
 
-  spec.ios.deployment_target     = '11.0'
-  spec.tvos.deployment_target    = '11.0'
-  spec.osx.deployment_target     = '10.10'
-  spec.watchos.deployment_target = '3.0'
+  spec.ios.deployment_target     = '13.0'
+  spec.osx.deployment_target     = '10.13'
 
-  spec.source_files              = 'Sources/Atomics/**/*.swift'
-  spec.source_files              = 'Sources/_AtomicsShims/**/*.{h,c}'
+  spec.source_files              = 'Sources/**/*.{swift,h,c}'
   spec.module_name               = 'Atomics'
 end
