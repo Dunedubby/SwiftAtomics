@@ -16,10 +16,6 @@ Pod::Spec.new do |spec|
   spec.watchos.deployment_target = '3.0'
 
   spec.source_files              = 'Sources/Atomics/**/*.swift'
+  spec.source_files              = 'Sources/_AtomicsShims/**/*.{h,c}'
   spec.module_name               = 'Atomics'
-
-  spec.subspec 'SwiftAtomics' do |shims_spec|
-    shims_spec.source_files = 'Sources/_AtomicsShims/**/*.{swift,c,h}'
-    shims_spec.module_name  = '_AtomicsShims'
-  end
 end

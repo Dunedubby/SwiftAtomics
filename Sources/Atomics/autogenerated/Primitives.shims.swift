@@ -19,7 +19,9 @@
 
 
 #if !ATOMICS_NATIVE_BUILTINS
+#if canImport(_AtomicsShims)
 import _AtomicsShims
+#endif
 
 @_alwaysEmitIntoClient
 @_transparent

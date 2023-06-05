@@ -19,7 +19,7 @@
 
 #if ATOMICS_NATIVE_BUILTINS
 import Swift
-#else
+#elseif canImport(_AtomicsShims)
 import _AtomicsShims
 #endif
 
