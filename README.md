@@ -1,6 +1,6 @@
 # Swift Atomics ⚛︎︎
 
-*Forked from https://github.com/apple/swift-atomics for Cocoapods compatibility. Basing the `.podspec` off of https://github.com/equinox-platformx/AtomicSwift. I do not claim any rights to the code here, except for those ascribed by the original Apache license (`LICENSE.txt`).*
+*Forked from https://github.com/apple/swift-atomics for Cocoapods compatibility. Basing the `.podspec` off of https://github.com/marcioapm/swift-atomics. I do not claim any rights to the code here, except for those ascribed by the original Apache license (`LICENSE.txt`).*
 
 [SE-0282]: https://github.com/apple/swift-evolution/blob/master/proposals/0282-atomics.md
 [SE-0282r0]: https://github.com/apple/swift-evolution/blob/3a358a07e878a58bec256639d2beb48461fc3177/proposals/0282-atomics.md
