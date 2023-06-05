@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                      = 'SwiftAtomics-Pod'
-  spec.version                   = '0.1.0'
+  spec.version                   = '0.1.1'
   spec.summary                   = 'An atomics library for Swift'
   spec.description               = 'This package implements an atomics library for Swift, proviing atomic operations for a variety of Swift types, including integers and pointer values. The goal is to enable intrepid developers to start building synchronization constructs directly in Swift.'
 
