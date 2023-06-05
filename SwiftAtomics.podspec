@@ -17,4 +17,9 @@ Pod::Spec.new do |spec|
 
   spec.source_files              = 'Sources/Atomics/**/*.swift'
   spec.module_name               = 'Atomics'
+
+  spec.subspec 'SwiftAtomics' do |shims_spec|
+    shims_spec.source_files = 'Sources/_AtomicsShims/**/*.{swift,c,h}'
+    shims_spec.module_name  = '_AtomicsShims'
+  end
 end
