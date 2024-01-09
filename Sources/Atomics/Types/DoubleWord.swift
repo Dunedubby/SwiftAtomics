@@ -75,7 +75,7 @@ extension DoubleWord {
 #if ATOMICS_NATIVE_BUILTINS
 #error("swift-atomics requires C shims on Swift versions below 5.9")
 #endif
-import _AtomicsShims
+
 public typealias DoubleWord = _AtomicsShims.DoubleWord
 #endif // compiler(>=5.9)
 

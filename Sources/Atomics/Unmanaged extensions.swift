@@ -27,7 +27,7 @@ internal func _sa_release_n(_ object: UnsafeMutableRawPointer, _ delta: UInt32)
 // Hiding the import using @_implementationOnly is not possible unless
 // Swift's library evolution dialect is enabled. (Which we cannot easily test
 // here.) Perhaps `internal import` will help work around this at some point.
-import _AtomicsShims
+
 #endif
 
 extension Unmanaged {
